@@ -37,9 +37,9 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    height: 100px;
     z-index: 1;
     overflow: hidden;
-
     grid-column: 1/13;
 }
 
@@ -86,22 +86,26 @@ nav a:hover {
 }
 
 .espaco {
-    height: 150px;
+    grid-column: 4/13;
 }
 
-/* Main */
-.cara {
-    /* height: 100vh; */
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
     padding-top: 20px;
     text-align: justify;
-    grid-column: 1/13;
+    grid-column: 7/3;
 }
 
-.cara div {
-    padding-top: 150px;
+
+.hero p {
+    position: relative;
+    grid-column: 10/3;
 }
 
-.cara h1 {
+.hero h1 {
     font-size: 100px;
     font-family: var(--titulos);
 }
